@@ -1,0 +1,64 @@
+* Mögliche Eingabeparameter für Help
+* ./main -h
+* ./main --help
+*
+*
+* Mögliche Eingabeparameter für Ausführung
+* ./main x y
+* wo x, y können folgende Werte annehmen: (x, y Є {NAN, -NAN, Infinity, -Infinity}) ^ (x, y Є Z)
+* Ist y rational, so wird x > 0 angennomen. Für ganzahlige y sind alle Werte (auch x < 0) zugelassen 
+* Fehlerhaftes Verhalten wie z.B. char als Parameter ist nicht abgefangen.
+*
+*
+* Mögliche Eingabeparameter für Tests
+* ./main -test 1
+    * Test Nummer 1 wird ausgeführt. 
+    * 
+    * Dabei wird eine "resource/test1.txt"-Datei erwartet, wovon die Werte für Perfomanzanalyse
+    * abgelesen werden. Dieser Test erfolgt automatisch und erzeugt 3 neue Dateien.
+    * 
+    * In test1.txt muss für korrekte Ausführung am Ende eine leere Zeile hinzugefügt werden
+    * 
+    * In diesem Test werden Laufzeiten 3 verschiedener Funktionen verglichen: 
+    * - Unsere Implementierung in Assembler
+    * - Unsere Implementierung in C 
+    * - pow(double x, double y) aus der Standardbibliothek
+    * 
+    * Der Abstand beträgt jeweils mehr als eine Sekunde (sleep(1) wird aufgerufen) und alle Endergebnisse
+    * sind Durchschnittswerte für 15 Wiederholungen.
+* ./main -test 2
+    * Test Nummer 2 wird ausgeführt. 
+    * 
+    * Hier werden die Analysergebnisse am Ende der Datei "resource/test2.txt" angehängt. 
+    * Da die Abweichungsrate stets konstant bleibt, gibt es keine Wiederholungen.
+    * 
+    * In test2-Datei sind verschiedene Werte für Anzahl der Taylorschritte zu finden. 
+    * Allerdings kann man diese Werte im Test automatisch nicht ändern, weil die Anzahle der Taylor Schritte 
+    * im Assemblercode festgeschrieben sind.
+* ./main -test 3
+    * Test Nummer 3 wird ausgeführt. 
+    * 
+    * Hier wird für verschiedene Anzahl an Taylorschritte Perfomazanalyse durchgeführt
+    * 
+    * Der Abstand beträgt jeweils mehr als eine Sekunde (sleep(1) wird aufgerufen) und alle Endergebnisse
+    * sind Durchschnittswerte für 15 Wiederholungen. Allerdings erfolgt es auch nicht automatisch.
+* ./main -test 4
+    * Dabei wird eine "resource/test4.txt"-Datei erwartet, wovon die Werte für Perfomanzanalyse
+    * abgelesen werden. Dieser Test erfolgt automatisch und erzeugt 3 neue Dateien.
+    *  
+    * In test4.txt muss für korrekte Ausführung am Ende eine leere Zeile hinzugefügt werden
+    * 
+    * In diesem Test werden Laufzeiten 3 verschiedener Funktionen verglichen: 
+    * - Alternative Implementierung in Assebmler
+    * - Implementierung in Assembler
+    * - Implementierung in C 
+    * - pow(double x, double y) aus der Standardbibliothek
+    * 
+    * Der Abstand beträgt jeweils mehr als eine Sekunde (sleep(1) wird aufgerufen) und alle Endergebnisse
+    * sind Durchschnittswerte für 15 Wiederholungen.
+* ./main -test -all
+    * Alle Tests werden nacheinander ausgeführt.
+    * Wegen der benötigen Abstand in 1 Sekunde zwischen Messungen, kann die Ausführung 
+    * dauern, da jeder Wert 15 Mal berechnet wird.
+    * 
+* Mehr als 4 oder keine Paramter führen zur Fehlermeldung und Terminierung
