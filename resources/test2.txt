@@ -1,0 +1,16 @@
+Anzahle der Taylor Schritte 200
+Abweichung Assembler  : 0.000000000000000e+00
+Abweichung C mit -O3  : 0.000000000000000e+00
+
+Anzahle der Taylor Schritte 100
+Abweichung Assembler  : 3.182395999678799e-03
+Abweichung C mit -O3  : 3.148066294829473e-04
+
+Anzahle der Taylor Schritte 50
+Abweichung Assembler  : 6.540082328340453e-01
+Abweichung C mit -O3  : 6.496650725394823e-02
+
+Anzahle der Taylor Schritte 100
+Abweichung Assembler  : 3.182395999678799e-03
+Abweichung C mit -O3  : 3.148066294829473e-04
+

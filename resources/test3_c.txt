@@ -1,0 +1,16 @@
+100 Schritte   ====> Avg execution time: 0.000084428500000
+200 Schritte   ====> Avg execution time: 0.000240067812500
+300 Schritte   ====> Avg execution time: 0.000547582562500
+400 Schritte   ====> Avg execution time: 0.000882208562500
+500 Schritte   ====> Avg execution time: 0.000990608750000
+600 Schritte   ====> Avg execution time: 0.001523722562500
+700 Schritte   ====> Avg execution time: 0.001910008937500
+800 Schritte   ====> Avg execution time: 0.002144434500000
+900 Schritte   ====> Avg execution time: 0.002392330125000
+1000 Schritte  ====> Avg execution time: 0.002835459812500
+1100 Schritte  ====> Avg execution time: 0.003298881500000
+1200 Schritte  ====> Avg execution time: 0.004418825437500
+1300 Schritte  ====> Avg execution time: 0.004235358375000
+1400 Schritte  ====> Avg execution time: 0.004330856250000
+1500 Schritte  ====> Avg execution time: 0.004905048062500
+1300 Schritte  ====> Avg execution time: 0.002790987250000

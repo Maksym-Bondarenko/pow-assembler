@@ -1,0 +1,19 @@
+          Tested x = 11.539100; 15 time each value
+
+Y Value: -140.000000 ====> Avg execution time: 0.000002234500000
+Y Value: -134.855600 ====> Avg execution time: 0.000012533500000
+Y Value: -118.569500 ====> Avg execution time: 0.000015218812500
+Y Value: -85.997300 ====> Avg execution time: 0.000015955500000
+Y Value: -69.711200 ====> Avg execution time: 0.000010614125000
+Y Value: -53.425100 ====> Avg execution time: 0.000014227875000
+Y Value: -37.139000 ====> Avg execution time: 0.000013268812500
+Y Value: -20.852900 ====> Avg execution time: 0.000008883875000
+Y Value: -4.566800 ====> Avg execution time: 0.000010268062500
+Y Value: 11.719300 ====> Avg execution time: 0.000011729812500
+Y Value: 28.005400 ====> Avg execution time: 0.000014032250000
+Y Value: 44.291500 ====> Avg execution time: 0.000012293187500
+Y Value: 60.577600 ====> Avg execution time: 0.000013951937500
+Y Value: 76.863700 ====> Avg execution time: 0.000014773687500
+Y Value: 109.435900 ====> Avg execution time: 0.000015440687500
+Y Value: 139.312000 ====> Avg execution time: 0.000013284312500
+Y Value: 140.000000 ====> Avg execution time: 0.000002116812500

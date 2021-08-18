@@ -1,0 +1,15 @@
+====> Avg execution time: 0.000008794250000
+====> Avg execution time: 0.000002215250000
+====> Avg execution time: 0.000009081062500
+====> Avg execution time: 0.000009603812500
+====> Avg execution time: 0.000002073312500
+====> Avg execution time: 0.000002146250000
+====> Avg execution time: 0.000003606500000
+====> Avg execution time: 0.000002243250000
+====> Avg execution time: 0.000002074250000
+====> Avg execution time: 0.000004617625000
+====> Avg execution time: 0.000004305250000
+====> Avg execution time: 0.000003430000000
+====> Avg execution time: 0.000002576562500
+====> Avg execution time: 0.000003142250000
+====> Avg execution time: 0.000002669625000
